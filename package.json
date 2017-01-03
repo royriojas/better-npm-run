@@ -1,7 +1,7 @@
 {
-  "name": "better-npm-run",
+  "name": "@redisrupt/better-npm-run",
   "description": "Better NPM scripts runner",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "license": "MIT",
   "author": "Benjamin Orozco <benoror@gmail.com>",
   "contributors": [
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/benoror/better-npm-run.git"
+    "url": "git://github.com/Redisrupt/better-npm-run.git"
   },
   "main": "index.js",
   "bin": {
@@ -23,12 +23,16 @@
     "test:params": "node index.js test:params --test",
     "test:command:object": "node index.js test:command:object",
     "test:command:string": "node index.js test:command:string",
-    "test": "npm run test:env && npm run test:env-extend && npm run test:params && npm run test:command:object && npm run test:command:string"
+    "test": "node index.js eslint index.js ./lib/exec.js && node index.js test:array-command && npm run test:env && npm run test:env-extend && npm run test:params && npm run test:command:object && npm run test:command:string"
   },
   "dependencies": {
+    "clix-logger": "1.0.0",
     "dotenv": "^2.0.0",
-    "object-assign": "^4.0.1"
+    "eslint": "3.12.2",
+    "object-assign": "4.1.0",
+    "pretty-time": "0.2.0"
   },
+  "bnrConfig": "./bnr-config.js",
   "betterScripts": {
     "test:command:string": "node ./test/command.js",
     "test:command:object": {
@@ -42,6 +46,13 @@
       "env": {
         "FOO": "bar"
       }
+    },
+    "test:array-command": {
+      "cmd": [
+        "echo 'hello world'",
+        "sleep 5",
+        "echo 'done'"
+      ]
     },
     "test:env-extend": {
       "command": "node ./test/env-extend.js",

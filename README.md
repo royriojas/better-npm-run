@@ -1,3 +1,11 @@
+**IMPORTANT**
+
+This fork adds the following:
+
+- ability to specify several commands to be executed in sequence
+- ability to specify an external file with the tasks config, exported as a function or as an object.
+- add `npm bin` output to the `process.env.PATH`
+
 [![NPM](https://nodei.co/npm/better-npm-run.png)](https://npmjs.org/package/better-npm-run)
 
 [![Join the chat at https://gitter.im/benoror/better-npm-run](https://badges.gitter.im/benoror/better-npm-run.svg)](https://gitter.im/benoror/better-npm-run?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
