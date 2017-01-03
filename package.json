@@ -28,9 +28,11 @@
   "dependencies": {
     "clix-logger": "1.0.0",
     "dotenv": "^2.0.0",
-    "eslint": "3.12.2",
     "object-assign": "4.1.0",
     "pretty-time": "0.2.0"
+  },
+  "devDependencies": {
+    "eslint": "3.12.2"
   },
   "bnrConfig": "./bnr-config.js",
   "betterScripts": {
