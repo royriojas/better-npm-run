@@ -60,7 +60,7 @@
     "test:array-command": {
       "cmd": [
         "echo 'hello world'",
-        "sleep 5",
+        "sleep 1.23",
         "echo 'done'"
       ]
     },
