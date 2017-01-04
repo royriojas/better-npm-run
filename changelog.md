@@ -1,5 +1,10 @@
 
 # @redisrupt/better-npm-run - Changelog
+## v0.0.16
+- **Bug Fixes**
+  - Use the name of the task instead of the command on 'ok' log - [c240604]( undefined/commit/c240604 ), [Roy Riojas](https://github.com/Roy Riojas), 03/01/2017 19:02:31
+
+    
 ## v0.0.15
 - **Features**
   - Add bump scripts - [57dccaf]( undefined/commit/57dccaf ), [Roy Riojas](https://github.com/Roy Riojas), 03/01/2017 18:30:34
