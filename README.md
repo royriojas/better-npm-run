@@ -5,6 +5,8 @@ This fork adds the following:
 - ability to specify several commands to be executed in sequence
 - ability to specify an external file with the tasks config, exported as a function or as an object.
 - add `npm bin` output to the `process.env.PATH`
+- the `command` can be a function. The function receive the parameters passed to it inthe command line, if the function return a string
+then the string is passed to the shell to be executed. the function receive 2 arguments, the extra parameters parsed by minimist and the raw array of parameters provided.
 
 [![NPM](https://nodei.co/npm/better-npm-run.png)](https://npmjs.org/package/better-npm-run)
 

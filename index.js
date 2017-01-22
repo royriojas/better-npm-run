@@ -22,6 +22,10 @@ var addNPMBinToPath = function ( cb ) {
   } );
 };
 
+var doExec = function (theCommand, commandName) {
+  logger.subtle('Executing script: ' + commandName);
+  exec(theCommand, commandName);
+};
 
 var tryRequire = function(pkgName, defaultValue) {
   var ret;
@@ -76,9 +80,9 @@ var main = function () {
     process.exit(1);
   }
 
-  logger.subtle('Executing script: ' + commandName);
+  var theCommand = betterScripts[commandName];
+  doExec(theCommand, commandName);
 
-  exec(betterScripts[commandName], commandName);
 };
 
 addNPMBinToPath(main);
