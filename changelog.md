@@ -1,5 +1,10 @@
 
 # @redisrupt/better-npm-run - Changelog
+## v1.0.0
+- **Features**
+  - functions as commands - [d09dc6a]( undefined/commit/d09dc6a ), [Roy Riojas](https://github.com/Roy Riojas), 22/01/2017 00:29:24
+
+    
 ## v0.0.17
 - **Refactoring**
   - use ms instead of no unit - [82dff75]( undefined/commit/82dff75 ), [Roy Riojas](https://github.com/Roy Riojas), 03/01/2017 19:11:30
