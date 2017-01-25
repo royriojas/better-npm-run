@@ -1,5 +1,16 @@
 
 # @redisrupt/better-npm-run - Changelog
+## v1.0.1
+- **Refactoring**
+  - allow setting the key value as function - [3cce464]( undefined/commit/3cce464 ), [Roy Riojas](https://github.com/Roy Riojas), 24/01/2017 23:50:12
+
+    
+  - test setting env vars from the output function - [a0a9d38]( undefined/commit/a0a9d38 ), [Roy Riojas](https://github.com/Roy Riojas), 24/01/2017 23:47:41
+
+    
+  - Allow to return descriptors from the functions - [c9746ef]( undefined/commit/c9746ef ), [Roy Riojas](https://github.com/Roy Riojas), 24/01/2017 23:40:57
+
+    
 ## v1.0.0
 - **Features**
   - functions as commands - [d09dc6a]( undefined/commit/d09dc6a ), [Roy Riojas](https://github.com/Roy Riojas), 22/01/2017 00:29:24
