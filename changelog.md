@@ -1,5 +1,10 @@
 
 # @redisrupt/better-npm-run - Changelog
+## v1.0.2
+- **Bug Fixes**
+  - in case of result type function don't append provided args - [d1c7315]( undefined/commit/d1c7315 ), [Roy Riojas](https://github.com/Roy Riojas), 25/01/2017 02:05:14
+
+    
 ## v1.0.1
 - **Refactoring**
   - allow setting the key value as function - [3cce464]( undefined/commit/3cce464 ), [Roy Riojas](https://github.com/Roy Riojas), 24/01/2017 23:50:12
