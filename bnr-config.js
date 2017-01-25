@@ -5,18 +5,13 @@ module.exports = function() {
         return 'eslint lib/**/*.js test/**/*.js *.js ' + (args.fix ? '--fix' : '');
       }
     },
-    test: {
-      cmd: function(args) {
-        return {
-          cmd: './test-cmd.sh',
-          env: {
-            DEBUG: args.dbg
-          }
-        };
-      },
-      env: {
-        DEBUG: false
-      }
-    },
+    test: function(args) {
+      return {
+        cmd: './test-cmd.sh',
+        env: {
+          DEBUG: args.dbg
+        }
+      };
+    }
   };
 };
