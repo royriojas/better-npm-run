@@ -1,7 +1,7 @@
 {
   "name": "@redisrupt/better-npm-run",
   "description": "Better NPM scripts runner",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "author": "Benjamin Orozco <benoror@gmail.com>",
   "contributors": [
