@@ -1,5 +1,10 @@
 
 # @redisrupt/better-npm-run - Changelog
+## v1.0.4
+- **Features**
+  - attempt to require babel-register if installed - [ef6ebc2]( undefined/commit/ef6ebc2 ), [Roy Riojas](https://github.com/Roy Riojas), 25/01/2017 22:48:18
+
+    
 ## v1.0.3
 - **Bug Fixes**
   - execute properly the commands when the return from function is an array - [10e4587]( undefined/commit/10e4587 ), [Roy Riojas](https://github.com/Roy Riojas), 25/01/2017 21:24:02
