@@ -8,6 +8,12 @@ var path = require('path');
 var exec = require('./lib/exec.js');
 var join = path.join;
 
+try {
+  require('babel-register');
+} catch (ex) {
+  logger.subtle('babel-register not found... if ES6 syntax is needed please install `babel-register`');
+}
+
 var addNPMBinToPath = function ( cb ) {
   cpExec( 'npm bin', function ( error, stdout, stderr ) {
     if ( error ) {
