@@ -1,5 +1,10 @@
 
 # @redisrupt/better-npm-run - Changelog
+## v1.0.3
+- **Bug Fixes**
+  - execute properly the commands when the return from function is an array - [10e4587]( undefined/commit/10e4587 ), [Roy Riojas](https://github.com/Roy Riojas), 25/01/2017 21:24:02
+
+    
 ## v1.0.2
 - **Bug Fixes**
   - in case of result type function don't append provided args - [d1c7315]( undefined/commit/d1c7315 ), [Roy Riojas](https://github.com/Roy Riojas), 25/01/2017 02:05:14
