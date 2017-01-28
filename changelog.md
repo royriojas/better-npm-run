@@ -1,5 +1,10 @@
 
 # @redisrupt/better-npm-run - Changelog
+## v1.0.5
+- **Bug Fixes**
+  - add missing message about why the config could not be imported - [6ca23fb]( undefined/commit/6ca23fb ), [Roy Riojas](https://github.com/Roy Riojas), 28/01/2017 10:38:41
+
+    
 ## v1.0.4
 - **Features**
   - attempt to require babel-register if installed - [ef6ebc2]( undefined/commit/ef6ebc2 ), [Roy Riojas](https://github.com/Roy Riojas), 25/01/2017 22:48:18
