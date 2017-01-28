@@ -39,6 +39,7 @@ var tryRequire = function(pkgName, defaultValue) {
     ret = require(pkgName);
   } catch (ex) {
     logger.warn('could not require:', pkgName);
+    logger.subtle('error', ex);
     if (defaultValue) {
       ret = defaultValue;
     }
