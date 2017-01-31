@@ -1,5 +1,10 @@
 
 # @redisrupt/better-npm-run - Changelog
+## v1.1.0
+- **Bug Fixes**
+  - Add the concept of task, a function that does not execute any shell command - [bf3d6bb]( undefined/commit/bf3d6bb ), [Roy Riojas](https://github.com/Roy Riojas), 31/01/2017 17:56:21
+
+    
 ## v1.0.5
 - **Bug Fixes**
   - add missing message about why the config could not be imported - [6ca23fb]( undefined/commit/6ca23fb ), [Roy Riojas](https://github.com/Roy Riojas), 28/01/2017 10:38:41
