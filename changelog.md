@@ -1,5 +1,10 @@
 
 # @redisrupt/better-npm-run - Changelog
+## v2.0.0
+- **Refactoring**
+  - change from position parameters to named parameters - [abb7de9]( undefined/commit/abb7de9 ), [Roy Riojas](https://github.com/Roy Riojas), 01/02/2017 14:54:04
+
+    
 ## v1.1.0
 - **Bug Fixes**
   - Add the concept of task, a function that does not execute any shell command - [bf3d6bb]( undefined/commit/bf3d6bb ), [Roy Riojas](https://github.com/Roy Riojas), 31/01/2017 17:56:21
