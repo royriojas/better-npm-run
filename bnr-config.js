@@ -1,13 +1,14 @@
 module.exports = function() {
   return {
     eslint: {
-      cmd: function(args) {
+      cmd: function(params) {
+        var args = params.args;
         return 'eslint lib/**/*.js test/**/*.js *.js ' + (args.fix ? '--fix' : '');
       }
     },
     demo: {
-      task: function (args) {
-        var b = args.config.demo1.task();
+      task: function (params) {
+        var b = params.config.demo1.task();
         console.log('b is', b); // eslint-disable-line
       }
     },
