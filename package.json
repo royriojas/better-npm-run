@@ -30,14 +30,17 @@
     "post-v": "npm run do-changelog && git push --no-verify && git push --tags --no-verify",
     "bump-major": "npm run pre-v && npm version major -m 'BLD: Release v%s' && npm run post-v",
     "bump-minor": "npm run pre-v && npm version minor -m 'BLD: Release v%s' && npm run post-v",
-    "bump-patch": "npm run pre-v && npm version patch -m 'BLD: Release v%s' && npm run post-v"
+    "bump-patch": "npm run pre-v && npm version patch -m 'BLD: Release v%s' && npm run post-v",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "clix-logger": "1.0.0",
     "dotenv": "^2.0.0",
     "minimist": "1.2.0",
     "object-assign": "4.1.0",
-    "pretty-time": "0.2.0"
+    "pretty-time": "0.2.0",
+    "snyk": "^1.53.0"
   },
   "devDependencies": {
     "changelogx": "2.0.1",
@@ -72,5 +75,6 @@
         "FOO": "bar"
       }
     }
-  }
+  },
+  "snyk": true
 }
