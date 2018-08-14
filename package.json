@@ -33,7 +33,7 @@
     "bump-patch": "npm run pre-v && npm version patch -m 'BLD: Release v%s' && npm run post-v"
   },
   "dependencies": {
-    "clix-logger": "1.0.0",
+    "clix-logger": "1.0.2",
     "dotenv": "^2.0.0",
     "minimist": "1.2.0",
     "object-assign": "4.1.0",
