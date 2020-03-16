@@ -35,7 +35,7 @@
   "dependencies": {
     "clix-logger": "1.0.0",
     "dotenv": "^2.0.0",
-    "minimist": "1.2.0",
+    "minimist": "1.2.2",
     "object-assign": "4.1.0",
     "pretty-time": "0.2.0"
   },
